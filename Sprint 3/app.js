@@ -169,7 +169,7 @@ app.post("/Register", (req, res) => {
                 username: req.body.username,
                 email: req.body.email,
                 password: req.body.password,
-                score: 50000000
+                score: 0
             });
             newUser.save().then(user => console.log(user)).catch(err => console.log(err.message));
             res.redirect("/Login");
