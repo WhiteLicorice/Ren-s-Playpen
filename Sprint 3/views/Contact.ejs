@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-16">
+	<title>Ren's Playpen: Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="/css/Contact.css">
+</head>
+<body>
+	
+	<a href="#"><img id="logo-1" src="/images/logo-1.png"></a>
+	<a href="#"><img id="logo-2" src="/images/logo-2.png"></a>
+	
+	<div id = "nav">
+		<p id = "navtitle" >Nifty Links</p>
+		<a href="/">Home</a>
+		<br>
+		<a href="/games">Play Games</a>
+		<br>
+		<a href="/register">Register</a>
+		<br>
+		<a href="/login">Login</a>
+		<br>
+		<a href="/ladderboard">Ladderboard</a>
+		<br>
+		<a href="/contact">Contact Us</a>
+		<br>
+		<a href="/about">About Us</a>
+		<br>
+	</div>
+	
+	<div id = "feedbackForm"> 
+		<h1>Have something to say?</h1>
+		<h3>Dear Ren,</h3>
+		<form id = "feedback" action = "/Contact" method = "POST"> 
+			<textarea form = "feedback" type="text" id="message" name="message" class = "messageBox" maxlength = "10000" placeholder = "Your message goes here..." wrap = "hard" required></textarea>
+			<h4>Yours,</h4>
+			<!--<textarea form = "feedback" input type="email" id="email" name="email" class = "emailBox" maxlength = "25" placeholder = "Your email goes here..." wrap = "soft" required></textarea>-->
+			<input form = "feedback" type="email" id="email" name="email" class = "emailBox" maxlength = "25" placeholder = "Your email goes here..." required></input>
+			<div id = "submit"> 
+				<input type="submit" id ="buttonSubmit" value="Submit"/>
+			</div>
+		</form>
+		<script src = "/js/Contact.js"></script>
+	</div>
+	
+	<!-- Four-div technique for thicc borders around the page  -->
+	<div id="left"></div>
+	<div id="right"></div>
+	<div id="top"></div>
+	<div id="bottom"></div>
+	
+</body>
+
+
+</html>

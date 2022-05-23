@@ -1,0 +1,137 @@
+body { 
+	background-color: #330099;
+	font-size: 100%;
+}
+
+html {
+	color: #FFFFFF;
+}
+
+#nav {
+	margin-left: 88%;
+}
+
+#navtitle {
+	font-family: cursive, "Handwriting", "Journal";
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:active {
+	color: white;
+} 
+
+a:hover {
+	color: red;
+}
+
+#top, #bottom, #left, #right {
+	background: #EEEEEE;
+	position: fixed;
+	
+}
+
+#left, #right {
+	top: 0; 
+	bottom: 0;
+	width: 5%;
+}
+
+#left { 
+	left: 0; 
+}
+
+#right { 
+	right: 0; 
+}
+		
+#top, #bottom {
+	left: 0; 
+	right: 0;
+	height: 10%;
+}
+
+#top { 	
+	top: 0;
+}
+
+#bottom { 
+	bottom: 0;
+}
+
+#logo-1 {
+  display: inline-block;
+  margin: 5%; 
+  float: left;
+  height: 100px;
+  width: auto; 
+  pointer-events: none
+}
+
+#logo-2 {
+  display: inline-block;
+  margin-right: 5%; 
+  margin-top: 5%;
+  float: right;
+  height: 100px;
+  width: auto;
+  pointer-events: none
+}
+
+
+
+#gameDiv {
+	margin-left: 200px;
+	margin-top: 70px;
+	position: fixed;
+	top: 50%;
+	left: 35%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-family: cursive, "Handwriting", "Journal";
+}
+
+#gameBoard {
+	display: grid;
+	grid-template-columns: repeat(4, 200px);
+	grid-template-rows: repeat(1, 200px);
+	width: 300px;
+	margin: none;
+}
+
+.tile {
+	height: 100px;
+	width: 100px;
+	border: 1px solid;
+	box-shadow: 0 0 0 2px;
+	font-size: 80px;
+	cursor: pointer;
+	background-color: green; 
+}
+
+#outerbar {
+	width: 707px;
+	height: 20px;
+	background-color: skyblue;
+	margin-bottom: 10%;
+	margin-top: 10%;
+	cursor: pointer;
+	color: black;
+	text-align: center;
+}
+
+#innerbar {
+	width: 0px; 
+	height: 20px;
+	background-color: red;
+}
+
+iframe {
+	display: none;
+}

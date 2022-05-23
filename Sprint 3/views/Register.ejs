@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-16">
+	<title>Ren's Playpen: Register</title>
+	<link rel="stylesheet" type="text/css" href="/css/Register.css">
+</head>
+<body>
+	
+	<a href="#"><img id="logo-1" src="/images/logo-1.png"></a>
+	<a href="#"><img id="logo-2" src="/images/logo-2.png"></a>
+	
+	<div id = "nav">
+		<p id = "navtitle" >Nifty Links</p>
+		<a href="/">Home</a>
+		<br>
+		<a href="/games">Play Games</a>
+		<br>
+		<a href="/register">Register</a>
+		<br>
+		<a href="/login">Login</a>
+		<br>
+		<a href="/ladderboard">Ladderboard</a>
+		<br>
+		<a href="/contact">Contact Us</a>
+		<br>
+		<a href="/about">About Us</a>
+		<br>
+	</div>
+	
+	<div id = "registerForm"> 
+		<h1>Register</h1>
+		<h3>Registration is super easy, barely an inconvenience.</h4>
+		<h3>Sign up now to access the ladderboard and receive updates on new games/features.</h4>
+		<form id = "registration" action = "/Register" method = "POST"> 
+			<div id = "udiv">
+				<p>What would you like us to call you?</p>
+				<input form = "registration" input type="text" id="username" name="username" class = "usernameBox" maxlength = "25" placeholder = "xxx_IAmAllofMe_xxx" required></input>
+			</div>
+			<div id = "ediv">
+				<p>Please type your email.</p>
+				<input form = "registration" input type="email" id="email" name="email" class = "emailBox" maxlength = "25" placeholder = "ultimatelifeform@example.com" required></input>
+			</div>
+			<div id = "pdiv">
+				<p>Please enter a password.</p>
+				<input form = "registration" input type="password" id="password" name="password" class = "passBox" maxlength = "10" placeholder = "***********" required></input>
+			</div>
+			<div id = "submit"> 
+				<input type="submit" id ="buttonRegister" value="Register">
+			</div>
+		</form>
+		<script src = "/js/Register.js"></script>
+	</div>
+
+	<!-- Four-div technique for thicc borders around the page  -->
+	<div id="left"></div>
+	<div id="right"></div>
+	<div id="top"></div>
+	<div id="bottom"></div>
+	
+</body>
+
+</html>
