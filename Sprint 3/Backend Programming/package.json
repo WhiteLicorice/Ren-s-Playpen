@@ -1,0 +1,16 @@
+{
+  "name": "rp",
+  "version": "1.0.0",
+  "description": "WIP backend for CMSC126 course requirement. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RA Jocsing",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
+  }
+}

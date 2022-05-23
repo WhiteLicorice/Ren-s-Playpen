@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-16">
+	<title>Ren's Playpen: Login</title>
+	<link rel="stylesheet" type="text/css" href="/css/Login.css">
+</head>
+<body>
+	
+	<a href="#"><img id="logo-1" src="/images/logo-1.png"></a>
+	<a href="#"><img id="logo-2" src="/images/logo-2.png"></a>
+	
+	<div id = "nav">
+		<p id = "navtitle" >Nifty Links</p>
+		<a href="/">Home</a>
+		<br>
+		<a href="/games">Play Games</a>
+		<br>
+		<a href="/register">Register</a>
+		<br>
+		<a href="/login">Login</a>
+		<br>
+		<a href="/ladderboard">Ladderboard</a>
+		<br>
+		<a href="/contact">Contact Us</a>
+		<br>
+		<a href="/about">About Us</a>
+		<br>
+	</div>
+	
+	<div id = "loginForm"> 
+		<h1>Login</h1>
+		<form id = "login" action = "/Login" method = "POST"> <!-- Placeholder backend script -->
+			<div id = "udiv">
+				<p>Username:</p>
+				<input form = "login" input type="text" id="username" name="username" class = "usernameBox" maxlength = "25" placeholder = "xxx_IAmAllofMe_xxx" required></input>
+			</div>
+			<div id = "pdiv">
+				<p>Password:</p>
+				<input form = "login" input type="password" id="password" name="password" class = "passBox" maxlength = "10" placeholder = "***********" required></input>
+			</div>
+			<div id = "submit"> 
+				<input type="submit" id ="buttonLogin" value="Login">
+			</div>
+		</form>
+		<script src = "/js/Login.js"></script>
+	</div>
+
+	<!-- Four-div technique for thicc borders around the page  -->
+	<div id="left"></div>
+	<div id="right"></div>
+	<div id="top"></div>
+	<div id="bottom"></div>
+	
+</body>
+
+</html>
